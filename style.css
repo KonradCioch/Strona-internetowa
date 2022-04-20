@@ -1,0 +1,181 @@
+body
+{
+	background-color: #0f137d;
+	color: #ffffff;
+	margin: 0 !important;
+}
+
+.wrapper
+{
+	width: 100%;
+}
+
+.header
+{
+	width:100%;
+	padding: 40px 0;
+}
+
+.logo
+{
+	width: 450px;
+	font-size: 48px;
+	border: 1px solid #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.nav
+{
+	width: 100%;
+	padding: 10px 0;
+	background-color: #d4a602;
+	text-align: center;
+	border-top: 1px solid #0f137d;
+	border-bottom: 1px solid #0f137d;
+	
+}
+
+.content
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:justify;
+}
+
+.logowanie
+{
+	background-color: #d4a602;
+	width:200px;
+	padding: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+.lacze
+{
+	background-color:#efefef;
+	color: #000000;
+	padding:5px;
+	margin-left: auto;
+	margin-right:auto;
+	text-align: center;
+	
+}
+
+a.tilelink
+{
+	color: #000000;
+	text-decoration: none;
+	display: block;
+}
+
+
+
+.footer
+{
+	background-color: #d4a602;
+	text-align:center;
+	color: #000000;
+	padding: 10px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	clear: both;
+}
+
+.sticky
+{
+	width:100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height:200%;
+	display: inline-block;	
+}
+
+ol a
+{
+	color:#000000;
+	text-decoration:none;
+	display: block;
+}
+
+ol > li
+{
+	float:left;
+	width:150px;
+	height: 40px;
+	border-right:1px dashed #000000;
+}
+
+ol > li:first-child
+{
+	border-left:1px dashed #000000;
+}
+
+ol > li:hover
+{
+	background-color:#e5b713;
+}
+
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	display: none;
+	
+}
+
+ol > li:hover > ul
+{
+	display:block;
+}
+
+ol > li > ul > li
+{
+	background-color:#d4a602;
+	position: relative;
+	z-index: 100;
+	border-top: 1px dashed #000000;
+	
+}
+
+ol > li > ul > li:hover
+{
+	background-color:#e5b713;
+	
+}
+
+input
+{
+	width: 200px;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-raddius: 3px;
+	font-size: 20px;
+	padding: 10 px;
+	box-sizing: border-box;
+}
+
+
+
+
