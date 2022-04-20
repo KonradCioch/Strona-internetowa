@@ -8,6 +8,7 @@ Cele projektu:
 - obsługa baz danych 
 
 Opis projektu:
+
 Zaprojektowana strona internetowa posiada nastepujące funkcjonalności:
 - umożliwa dostęp do plików pdf
 - łączy się z bazą danych
